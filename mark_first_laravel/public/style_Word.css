@@ -1,0 +1,77 @@
+.container_2 {
+    background-color: #ffffff;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+
+.search-box_2 {
+    display: flex;
+    gap: 10px; /* Add some space between the input and the button */
+}
+
+.search-box_2 input {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #04b7ba;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.search-box_2 button {
+    flex-shrink: 0;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result_Word {
+    position: relative;
+    margin-top: 20px; /* Add margin for spacing below search box */
+}
+
+.result_Word h3 {
+    font-size: 30px;
+    color: #1f194c;
+}
+
+.result_Word .word {
+    margin-top: 20px;
+}
+
+.result_Word .details {
+    color: #b3b6d4;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+
+.word-meaning, .word-example, .word-synonym {
+    color: #575a7b;
+}
+
+.word-example {
+    font-style: italic;
+    border-left: 5px solid #04b7ba;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.word-synonym {
+    font-style: italic;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.error {
+    margin-top: 80px;
+    text-align: center;
+}
